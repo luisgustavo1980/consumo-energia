@@ -3,4 +3,11 @@
 Este projeto em Python foi criado para praticar o ciclo **Entrada → Processamento →
 Saída**.
 
-O programa solicita o **nome do aparelho**, em seguida  **potência do aparelho**, a **tempo médio diário de uso**, na sequência é calculado a potência multiplicado pela quantidade de horas utilizadas no dia ((potência * horasDia * 30) / 1000), onde foi colocado um valor fixo do kWh de R$ 0,75. No final é mostrado o nome do aparelho informado e a estimativa de consumo mensal em kWh e também o custo mensal em R$.
+Para se chegsar no resultado esperado, é necessário realizar os seguintes passos:
+- Digitar o nome do aparelho;
+- Digitar a potência em W (watts) do aparelho informado;
+- Digitar o tempo médio de utilização (em horas).
+- Após a inserção das informações acima, o programa traz o consumo estimado em kWh/mês do aparelho informado, assim como o consumo em R$. Para se chegar ao consumo em R$, foi adicionado um valor fixo de R$ 0,75 por Kwh.
+
+Também foi utilizado o seguinte cálculo para se chegar aos valores finais: consumoMensal = (potencia * horasDia * 30) / 1000.
+
